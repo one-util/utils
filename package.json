@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@one-util/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "docs:start": "dumi dev",
     "docs:build": "NODE_ENV=production dumi build",
