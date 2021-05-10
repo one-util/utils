@@ -11,7 +11,7 @@ $ npm i
 Start the dev server,
 
 ```bash
-$ npm start
+$ npm run dev
 ```
 
 Build documentation,
@@ -20,8 +20,8 @@ Build documentation,
 $ npm run docs:build
 ```
 
-Build library via `father-build`,
+release
 
 ```bash
-$ npm run build
+npm run release
 ```
