@@ -14,7 +14,9 @@
     "commit": "lint-staged && export HUSKY_SKIP_HOOKS=1 && git-cz",
     "changelog": "conventional-changelog -p angular -i ./docs/change-log/index.md -s -r 0 && conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add .",
     "version": "npm run changelog",
-    "lint": "eslint src/ --ext .ts"
+    "lint": "eslint src/ --ext .ts",
+    "postversion": "git push && git push --tags",
+    "preversion": "npm run test:coverage && npm run build"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
