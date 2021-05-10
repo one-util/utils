@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@one-util/utils",
   "version": "0.0.1",
   "scripts": {
@@ -21,6 +20,11 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
